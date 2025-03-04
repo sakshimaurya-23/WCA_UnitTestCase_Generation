@@ -46,11 +46,11 @@ Ensure tests are independent, database sessions are properly managed, and avoid 
 ```
 - This will generate the test_main.py file.
 
-3. Review and Modify the Generated Tests
+#### 3. Review and Modify the Generated Tests
 - Verify the correctness of test cases.
 - Ensure they follow best practices and align with project requirements.
 
-4. Running Unit Tests
+#### 4. Running Unit Tests
 - To execute the generated unit tests, run:
 ```sh
 pytest test_main.py
