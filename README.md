@@ -31,37 +31,33 @@ pip install -r requirements.txt
 
 # Generating Unit Tests with WCA and Ollama
 
-Steps to Use Watsonx Code Assistant
+## Steps to Use Watsonx Code Assistant
 
-Install and Configure WCA
+1. Install and Configure WCA
+   Ensure the necessary plugins and extensions are installed in your development environment.
+   Authenticate using IBM Cloud credentials if required.
+2. Provide a Prompt
+   Input the following prompt into WCA:
 
-Ensure the necessary plugins and extensions are installed in your development environment.
-
-Authenticate using IBM Cloud credentials if required.
-
-Provide a Prompt
-
-Input the following prompt into WCA:
-
-'''Generate unit test cases test_main.py for above FastAPI endpoints.
+```sh
+Generate unit test cases test_main.py for above FastAPI endpoints.
 Use mock and fixture wherever required.
 Use all required import statements from above code.
 Use required functions from above code.
-Ensure tests are independent, database sessions are properly managed, and avoid fixture not found errors.'''
+Ensure tests are independent, database sessions are properly managed, and avoid fixture not found errors.
+```
+  This will generate the test_main.py file.
 
-This will generate the test_main.py file.
+3. Review and Modify the Generated Tests
+   Verify the correctness of test cases.
+   Ensure they follow best practices and align with project requirements.
 
-Review and Modify the Generated Tests
-
-Verify the correctness of test cases.
-
-Ensure they follow best practices and align with project requirements.
 
 Running Unit Tests
-
 To execute the generated unit tests, run:
-
+```sh
 pytest test_main.py
+```
 
 
 
