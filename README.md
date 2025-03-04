@@ -15,15 +15,13 @@ This repository contains a FastAPI project (main.py) and its corresponding unit 
 
 # Installation Steps
 
-Set up a virtual environment (optional but recommended)
+- Set up a virtual environment (optional but recommended)
 
 ```sh
 python -m venv venv
-```
-```sh
 source venv/bin/activate
 ```
-Install dependencies
+- Install dependencies
 
 ```sh
 pip install -r requirements.txt
@@ -34,27 +32,26 @@ pip install -r requirements.txt
 ## Steps to Use Watsonx Code Assistant
 
 1. Install and Configure WCA
-   Ensure the necessary plugins and extensions are installed in your development environment.
-   Authenticate using IBM Cloud credentials if required.
+   - Ensure the necessary plugins and extensions are installed in your development environment.
+   - Authenticate using IBM Cloud credentials if required.
 2. Provide a Prompt
-   Input the following prompt into WCA:
+   - Input the following prompt into WCA:
 
 ```sh
-Generate unit test cases test_main.py for above FastAPI endpoints.
+Generate unit test cases test_main.py for above fastapi endpoints.
 Use mock and fixture wherever required.
 Use all required import statements from above code.
-Use required functions from above code.
+use required functions from above code.
 Ensure tests are independent, database sessions are properly managed, and avoid fixture not found errors.
 ```
-  This will generate the test_main.py file.
+  - This will generate the test_main.py file.
 
 3. Review and Modify the Generated Tests
-   Verify the correctness of test cases.
-   Ensure they follow best practices and align with project requirements.
+   - Verify the correctness of test cases.
+   - Ensure they follow best practices and align with project requirements.
 
-
-Running Unit Tests
-To execute the generated unit tests, run:
+4. Running Unit Tests
+- To execute the generated unit tests, run:
 ```sh
 pytest test_main.py
 ```
