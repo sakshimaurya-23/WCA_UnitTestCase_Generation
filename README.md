@@ -18,16 +18,16 @@ This repository contains a FastAPI project (main.py) and its corresponding unit 
 Set up a virtual environment (optional but recommended)
 
 ```sh
-python -m venv venv```
+python -m venv venv
+```
 ```sh
-source venv/bin/activate```
-
-
-
+source venv/bin/activate
+```
 Install dependencies
 
 ```sh
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 # Generating Unit Tests with WCA and Ollama
 
