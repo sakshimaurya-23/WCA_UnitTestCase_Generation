@@ -17,8 +17,8 @@ This repository contains a FastAPI project (main.py) and its corresponding unit 
 
 Set up a virtual environment (optional but recommended)
 
-```python -m venv venv
-source venv/bin/activate```
+```python -m venv venv```
+```source venv/bin/activate```
 
 Install dependencies
 
