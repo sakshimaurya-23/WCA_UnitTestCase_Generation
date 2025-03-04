@@ -1,9 +1,9 @@
 # WCA_UnitTestCase_Generation
-# Overview
+## Overview
 
 This repository contains a FastAPI project (main.py) and its corresponding unit test file (test_main.py). The unit test cases are generated using IBM Watsonx Code Assistant (WCA) with a structured prompt to ensure proper mocking, fixture management, and database session handling.
 
-# Setup Instructions
+## Setup Instructions
 
 - Prerequisites
 - Ensure you have the following installed:
@@ -13,7 +13,7 @@ This repository contains a FastAPI project (main.py) and its corresponding unit 
 - Watsonx Code Assistant (WCA)
 - Required dependencies from requirements.txt
 
-# Installation Steps
+## Installation Steps
 
 - Set up a virtual environment (optional but recommended)
 
@@ -27,14 +27,14 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-# Generating Unit Tests with WCA and Ollama
+## Generating Unit Tests with WCA and Ollama
 
 ### Steps to Use Watsonx Code Assistant
 
-1. Install and Configure WCA
+#### 1. Install and Configure WCA
 - Ensure the necessary plugins and extensions are installed in your development environment.
 - Authenticate using IBM Cloud credentials if required.
-2. Provide a Prompt
+#### 2. Provide a Prompt
 - Input the following prompt into WCA:
 
 ```sh
