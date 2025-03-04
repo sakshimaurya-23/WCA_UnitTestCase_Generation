@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 # Generating Unit Tests with WCA and Ollama
 
-## Steps to Use Watsonx Code Assistant
+### Steps to Use Watsonx Code Assistant
 
 1. Install and Configure WCA
 - Ensure the necessary plugins and extensions are installed in your development environment.
